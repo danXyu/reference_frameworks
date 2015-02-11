@@ -5,6 +5,7 @@ application-configuration@1.0.4
 autoupdate@1.1.5
 base64@1.0.2
 binary-heap@1.0.2
+bitly@1.0.0
 blaze@2.0.4
 blaze-tools@1.0.2
 boilerplate-generator@1.0.2
@@ -44,6 +45,7 @@ minimongo@1.0.6
 mizzao:bootstrap-3@3.3.1_1
 mobile-status-bar@1.0.2
 mongo@1.0.11
+mongo-livedata@1.0.7
 npm-bcrypt@0.7.7
 observe-sequence@1.0.4
 ordered-dict@1.0.2
@@ -53,6 +55,7 @@ reactive-var@1.0.4
 reload@1.1.2
 retry@1.0.2
 routepolicy@1.0.4
+rss@0.1.0
 sacha:spin@2.0.4
 service-configuration@1.0.3
 session@1.0.5
@@ -62,6 +65,7 @@ spacebars-compiler@1.0.4
 srp@1.0.2
 stylus@1.0.6
 templating@1.0.11
+tmeasday:errors@1.0.0
 tracker@1.0.5
 ui@1.0.5
 underscore@1.0.2

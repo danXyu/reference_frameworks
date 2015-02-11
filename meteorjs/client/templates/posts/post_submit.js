@@ -19,7 +19,7 @@ Template.postSubmit.events({
     // The callback is automatically defined as having (error, result) format.
     Meteor.call('postInsert', post, function (error, result) {
       if (error) {
-        return throwError(error.reason);
+        Errors.throw(error.reason);
       }
 
       // show this result but route anyway

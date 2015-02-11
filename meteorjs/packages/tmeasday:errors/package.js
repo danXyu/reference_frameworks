@@ -17,7 +17,8 @@ Package.onUse(function (api, where) {
 });
 
 Package.onTest(function (api) {
-  api.use('tinytest');
-  api.use('tmeasday:errors');
-  api.addFiles('tmeasday:errors-tests.js');
+  api.use('tmeasday:errors', 'client');
+  api.use(['tinytest', 'test-helpers'], 'client');
+
+  api.addFiles('errors_tests.js', 'client');
 });
